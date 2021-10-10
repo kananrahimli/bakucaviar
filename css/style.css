@@ -3,7 +3,7 @@
 	margin: 0;
 }
 body{
-	background-color: #00416a;
+	background-color: #FEF9EF;
   font-family: sans-serif;
   overflow-x: hidden;
 }
@@ -456,7 +456,7 @@ body.not-scroll {
 }
 .logotype{
 	text-align: center;
-	background: url(../img/log.svg) 0 50% no-repeat;
+	background: url(../img/logo-chaviar.svg) 0 50% no-repeat;
 	width: 120px;
 	height: 100%;
 	background-size: contain;
@@ -465,12 +465,12 @@ body.not-scroll {
 	height: 90px;
 }
 .UpImg{
-	background: url(../img/fish.png) 0 50% no-repeat !important;
+	background: url(../img/logo-chaviar.svg) 0 50% no-repeat !important;
 	width: 170px !important;
 	background-size: contain !important;
 }
 .DownImg{
-	background: url(../img/logotype.png) 0 50% no-repeat;
+	background: url(../img/logo-chaviar.svg) 0 50% no-repeat;
 	background-size: contain;
 }
 .fish_img{
@@ -1060,6 +1060,17 @@ form button{
 }
 
 
+.banner-title{
+  position: absolute;
+  top: 50%;
+  z-index: 1000;
+}
+.banner-logo{
+  position: absolute;
+  top: 5%;
+  z-index: 1000;
+}
+
 
 /****** media ******/
 @media (max-width: 1400px) {
@@ -1081,7 +1092,7 @@ form button{
 }
 @media (max-width: 767px) {
   .mySwiper2{
-    height: 30rem !important;
+    height: 20rem !important;
     width: 100% !important;
     
   }
@@ -1310,3 +1321,7 @@ form button{
     padding-top: 50px;
   }
 }
+
+
+/* MYCode */
+
